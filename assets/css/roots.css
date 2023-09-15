@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto+Serif:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
+:root {
+  /* font-size */
+  --fs-10: 10px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-25: 25px;
+  --fs-30: 30px;
+
+  /* color */
+  --text_mhndi: #454729;
+  --text_ligtbck: rgba(0, 0, 0, 0.7);
+  --text_gray: #999;
+  --text_55: #555;
+  --text_red: #f00;
+  --text_blue: #007bff;
+  --bg_green: #28a745;
+  --bg_orange: #ff4400;
+  --footerbg-clr: #171717;
+}
+
+.fs-10 {
+  font-size: var(--fs-10);
+}
+.fs-16 {
+  font-size: var(--fs-16);
+}
+.fs-18 {
+  font-size: var(--fs-18);
+}
+.fs-20 {
+  font-size: var(--fs-20);
+}
+.fs-24 {
+  font-size: var(--fs-24);
+}
+.fs-25 {
+  font-size: var(--fs-25);
+}
+.fs-30 {
+  font-size: var(--fs-30);
+}
+
+.text_mhndi {
+  color: var(--text_mhndi);
+}
+.text_ligtbck {
+  color: var(--text_ligtbck);
+}
+.text_gray {
+  color: var(--text_gray);
+}
+.text_red {
+  color: var(--text_red);
+}
+.text_blue {
+  color: var(--text_blue);
+}
+.text_55 {
+  color: var(--text_55);
+}
+.bg_green {
+  background-color: var(--bg_green);
+}
+.bg_orange {
+  background-color: var(--bg_orange);
+}
+.ff-poppin {
+  font-family: "Poppins", sans-serif !important;
+}
+.ff-robot {
+  font-family: "Roboto Serif", serif !important;
+}
+.ff-john {
+  font-family: "Josefin Sans", sans-serif !important;
+}
+.footerbg-clr{
+  background-color: var(--footerbg-clr) !important;
+}
+
+@media (min-width: 576px) {
+  :root {
+    --fs-10: 10px;
+    --fs-16: 16px;
+    --fs-18: 16px;
+    --fs-20: 18px;
+    --fs-24: 22px;
+    --fs-25: 23px;
+    --fs-30: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-10: 10px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-25: 25px;
+    --fs-30: 30px;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    --fs-10: 10px;
+    --fs-16: 9px;
+    --fs-18: 13px;
+    --fs-20: 14px;
+    --fs-24: 24px;
+    --fs-25: 10px;
+    --fs-30: 13px;
+  }
+}
