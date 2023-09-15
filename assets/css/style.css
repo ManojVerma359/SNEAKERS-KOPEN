@@ -94,6 +94,7 @@ h6 {
   box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.2);
 }
 
+
 .teblebtn {
   padding: 8px 31px;
   border-radius: 40px;
@@ -107,6 +108,9 @@ h6 {
   gap: 13px;
 }
 .clickbtn {
+  cursor: pointer !important;
+}
+.cpointer {
   cursor: pointer !important;
 }
 
