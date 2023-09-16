@@ -106,11 +106,11 @@
 @media (max-width: 576px) {
   :root {
     --fs-10: 10px;
-    --fs-16: 9px;
+    --fs-16: 14px;
     --fs-18: 13px;
     --fs-20: 14px;
     --fs-24: 24px;
-    --fs-25: 10px;
+    --fs-25: 16px;
     --fs-30: 13px;
   }
 }
